@@ -1,0 +1,35 @@
+/* Enroll Now Page Styling */
+.enroll-page {
+    min-height: 100vh;
+    background-image: url('/public/images/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent background */
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  
+  form .form-label {
+    font-weight: 500;
+  }
+  
+  /* Button Styling */
+  form button {
+    border-radius: 30px;
+  }
+  
+  .card {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }

@@ -1,0 +1,42 @@
+/* General Page Styling */
+.login-page, .register-page {
+    min-height: 100vh;
+    background-image: url('/public/images/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .card {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+  }
+  
+  h2 {
+    font-weight: bold;
+  }
+  
+  form .form-label {
+    font-weight: 500;
+  }
+  
+  /* Add shadows and effects */
+  .card {
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  form button {
+    border-radius: 30px;
+  }
+  
+  p a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  p a:hover {
+    text-decoration: underline;
+  }

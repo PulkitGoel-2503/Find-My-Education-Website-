@@ -1,0 +1,32 @@
+.about-page {
+    background-color: #f8f9fa;
+}
+.about-page h2{
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.lead{
+    font-size: 1.25em;
+    margin-bottom: 2rem;
+}
+.team-card{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+.team-card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+.team-card img{
+    height: 250px;
+    object-fit: cover;
+}
+.vission-mission h4{
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.modal-body img{
+    max-height: 300px;
+    object-fit: cover;
+    width: 100%;
+}

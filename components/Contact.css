@@ -1,0 +1,40 @@
+/* Contact Header Styling */
+.contact-header {
+    background-image: url('/public/images/banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .contact-header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Overlay */
+  }
+  
+  .contact-header h1, .contact-header p {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .contact-info {
+    background-color: #f8f9fa;
+  }
+  
+  .contact-info h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info ul {
+    font-size: 1.2rem;
+  }
+  
+  .map iframe {
+    border: 0;
+    border-radius: 8px;
+  }
